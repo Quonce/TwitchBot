@@ -19,8 +19,8 @@ namespace TwitchBot
             Console.WriteLine("Twitch Foxx Bot (v0.1.0)");
             Console.WriteLine("Type /connect [channelName] for connecting FoxxChatBot to channel");
 
-            StreamLabs streamLabs = new StreamLabs(TwitchInfo.StreamLabs_SocketToken, true, "");
-            streamLabs.Connect();
+            //StreamLabs streamLabs = new StreamLabs(TwitchInfo.StreamLabs_SocketToken, true, "");
+            //streamLabs.Connect();
 
             Load();
             TwitchBotConnect(paidChannels);
