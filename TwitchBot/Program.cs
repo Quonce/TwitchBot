@@ -24,6 +24,8 @@ namespace TwitchBot
 
             Load();
             TwitchBotConnect(paidChannels);
+            DonationAlerts donationAlerts = new DonationAlerts();
+            donationAlerts.Connect();
             ReadCommand(Console.ReadLine());
         }
 

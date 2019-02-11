@@ -8,7 +8,7 @@ namespace TwitchBot
         public Action<object> onDonation;
         private string uri = "http://socket.donationalerts.ru";
         private int port = 3001;
-        string token = "";
+        string token = "RURFttu1Y6la2tuqnxS6";
 
         public void Connect(string token)
         {
@@ -17,6 +17,7 @@ namespace TwitchBot
         }
         public void Connect()
         {
+            Console.WriteLine("DonationAlerts connecting...");
             onDonation += Donation;
             var socket = IO.Socket(uri, new IO.Options() { Port = port });
             socket.Emit("add-user", new string[] { token, "minor" });
@@ -27,9 +28,11 @@ namespace TwitchBot
         {
             if (info == null)
             {
+                Console.WriteLine("info is null");
                 throw new ArgumentNullException(nameof(info));
             }
             Console.WriteLine(info);
+            Console.WriteLine(info.ToString());
             throw new NotImplementedException();
         }
     }

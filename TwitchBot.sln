@@ -8,16 +8,16 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		FoxxChatBot|Any CPU = FoxxChatBot|Any CPU
 		Release|Any CPU = Release|Any CPU
-		TwitchBot - Erich_Zaaann|Any CPU = TwitchBot - Erich_Zaaann|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C05B096A-0E05-440F-A2E6-133E4332B103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C05B096A-0E05-440F-A2E6-133E4332B103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05B096A-0E05-440F-A2E6-133E4332B103}.FoxxChatBot|Any CPU.ActiveCfg = FoxxChatBot|Any CPU
+		{C05B096A-0E05-440F-A2E6-133E4332B103}.FoxxChatBot|Any CPU.Build.0 = FoxxChatBot|Any CPU
 		{C05B096A-0E05-440F-A2E6-133E4332B103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05B096A-0E05-440F-A2E6-133E4332B103}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C05B096A-0E05-440F-A2E6-133E4332B103}.TwitchBot - Erich_Zaaann|Any CPU.ActiveCfg = TwitchBot - Erich_Zaaann|Any CPU
-		{C05B096A-0E05-440F-A2E6-133E4332B103}.TwitchBot - Erich_Zaaann|Any CPU.Build.0 = TwitchBot - Erich_Zaaann|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
